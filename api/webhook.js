@@ -17,7 +17,7 @@ export default async function handler(req, res) {
     return res.status(403).json({ error: 'Forbidden: Invalid secret' });
   }
 
-  const REAL_WEBHOOK_URL = 'https://discord.com/api/webhooks/1382254617387077703/0CXY2oWRwvH-4CY4rHQwBYxqy0nCX2aD7jY8g9st1y1O90cbeHHN69cmn0kjUF7xapd8';
+  const REAL_WEBHOOK_URL = 'https://discord.com/api/webhooks/1382410476356374718/rzBH0rAwrNC9geMVhXDnHgHHvT8VkVxunu2QshPUuWQhVX56uNY4MpMWtytLJCuDQkhG';
 
   try {
     const response = await fetch(REAL_WEBHOOK_URL, {
