@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-const REAL_WEBHOOK_URL = 'https://discord.com/api/webhooks/your-real-webhook-id'; // Replace this with your actual webhook URL
+const REAL_WEBHOOK_URL = 'https://discord.com/api/webhooks/1382254617387077703/0CXY2oWRwvH-4CY4rHQwBYxqy0nCX2aD7jY8g9st1y1O90cbeHHN69cmn0kjUF7xapd8'; // Replace this with your actual webhook URL
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
