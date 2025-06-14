@@ -7,7 +7,7 @@ app.use(express.json());
 // Environment variables
 const POOR_WEBHOOK_URL = process.env.POOR_WEBHOOK_URL || '';
 const RICH_WEBHOOK_URL = process.env.RICH_WEBHOOK_URL || '';
-const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET || 'your_default_secret_here';
+const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET || 'aaaa';
 
 // Validate environment variables
 if (!POOR_WEBHOOK_URL || !RICH_WEBHOOK_URL) {
