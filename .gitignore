@@ -1,4 +1,46 @@
-
+# Node.js
 node_modules/
-.DS_Store
+npm-debug.log
+yarn-error.log
+
+# Environment variables
 .env
+.env.local
+.env.development
+.env.production
+
+# Vercel
+.vercel
+.now
+.vercel_build_output
+
+# macOS
+.DS_Store
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Cache
+.cache/
+dist/
+
+# Optional: Ignore Holderimages if not needed in repo
+# Holderimages/
+# Or specific files in Holderimages
+# Holderimages/*.jpg
+# Holderimages/*.png
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
