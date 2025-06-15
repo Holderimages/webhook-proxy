@@ -8,13 +8,8 @@
   ],
   "routes": [
     {
-      "src": "/api/webhook",
-      "dest": "/api/webhook"
-    },
-    {
       "src": "/(.*)",
-      "dest": "/api/webhook",
-      "methods": ["POST"]
+      "dest": "/api/webhook"
     }
   ]
 }
