@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 2,
   "builds": [
     {
       "src": "api/webhook.js",
@@ -8,8 +8,13 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/api/webhook",
       "dest": "/api/webhook"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/webhook",
+      "methods": ["POST"]
     }
   ]
 }
