@@ -2,6 +2,7 @@
 export default async function handler(req, res) {
   return res.status(200).json({ 
     working: true,
-    path: req.url 
+    message: "API is online!",
+    time: new Date().toISOString()
   });
 }
